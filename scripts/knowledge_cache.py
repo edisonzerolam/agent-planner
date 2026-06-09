@@ -1,5 +1,11 @@
 """knowledge_cache.py — 知识文件内存缓存（v3.4 分层TTL）
 
+
+# [中文说明]
+# 本文件：knowledge_cache.py
+# 用途：OpenClaw 框架的核心脚本之一
+# 详细文档：请阅读对应的 SKILL.md 和 references/
+
 agent-planner 的知识文件在 _knowledge/ 目录下，每次触发都重新读取磁盘。
 本模块提供基于文件修改时间+TTL的内存缓存，减少 I/O。
 

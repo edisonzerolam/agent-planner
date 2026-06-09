@@ -1,5 +1,11 @@
 """spawn_agent_direct.py — 直接使用 sessions_spawn 的子代理调用
 
+
+# [中文说明]
+# 本文件：spawn_agent_direct.py
+# 用途：OpenClaw 框架的核心脚本之一
+# 详细文档：请阅读对应的 SKILL.md 和 references/
+
 spawn-agent.py 通过 PowerShell 中转，延迟较高（~200ms）。
 
 本模块提供直接调用 sessions_spawn 的方式，延迟更低（<50ms）。
